@@ -1,0 +1,121 @@
+* {
+   background: linear-gradient(to left, #c9c2c2, #1a1818) no-repeat 
+   
+}
+
+
+.tudo {
+    width: 1000px;
+    display: grid;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /*height: 900px;
+    border: solid 5px #000; */
+    grid-template-columns: 3fr 3fr 3fr 3fr; 
+}
+
+.vitoria {
+    width: 600px;
+    height: 500px;
+    background: linear-gradient(rgb(176, 190, 114), rgb(204, 83, 144), rgb(96, 39, 201), rgb(67, 171, 212));
+}
+
+.cada {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: outset 5px rgb(127, 70, 153);
+    height: 60px;
+    line-height: 60px;
+    background: linear-gradient(to right, #fffffd, #b6d0e2);
+}
+
+.selecionado {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: outset 5px #fffffd;
+    height: 60px;
+    line-height: 60px;
+    background: linear-gradient(to right, #56dd8a, #0f2879);
+}
+
+.negativo {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: outset 5px #fffffd;
+    height: 60px;
+    line-height: 60px;
+    background: linear-gradient(to right, #e7eb18, #520c0c);
+
+}
+/*.c1{border: double 3px rgb(96, 64, 214);}
+.c2{
+    border: double 3px rgb(96, 64, 214);}*/
+.local, .recomecando {
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    align-items: center;
+    background: brown;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    border: solid 4px rgb(216, 213, 61);
+    border-radius: 7px;
+    color:#dbd93f;
+    text-shadow: solid 3px #000;
+}
+
+#like {
+    background: rgb(84, 133, 240);    
+    position: relative;
+    font-size: 20px;
+    top: -60px;
+    left: 450px;
+    border: ridge 3px #fff;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+}
+
+.deslike {
+    background:rgb(224, 34, 34);
+    position: relative;
+    font-size: 20px;
+    top: -60px;
+    left: 550px;
+    border: ridge 3px #fff;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+}
+
+#like:hover{
+    background: rgb(166, 186, 230);
+    border: ridge 5px #fff;
+}
+
+.deslike:hover{
+    background: rgb(236, 120, 120);
+    border: ridge 5px #fff;
+}
+
+.likeSelecionado {
+    background-color: rgb(68, 155, 33);
+    text-decoration: rgb(241, 241, 238);
+    border: solid 4px rgb(204, 172, 28);
+}
+
+.deslikeSelecionado {
+    background-color: rgb(194, 37, 84);
+    text-decoration: rgb(241, 241, 238);
+    border: solid 4px rgb(204, 172, 28);
+}
+.recomecando {
+    border: solid 2px #2c2c30;
+    background: #a7a9cf;
+    color: black;
+    font-weight: 900;
+}
+
